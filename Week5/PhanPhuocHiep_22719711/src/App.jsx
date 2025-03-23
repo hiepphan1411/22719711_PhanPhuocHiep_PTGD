@@ -19,7 +19,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Content addToOrder={addToOrder} />} />
-          <Route path="/product/:id" element={<ProductDetail />} />
+          <Route path="/" element={<ProductDetail />} />
         </Routes>
         <Footer />
       </div>

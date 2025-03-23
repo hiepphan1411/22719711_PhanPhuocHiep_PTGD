@@ -63,7 +63,7 @@ const Content = () => {
                 key={item.id}
                 className="border p-4 rounded-lg shadow flex flex-col justify-between"
               >
-                <Link to={`/product/${item.id}`} className="block">
+                <Link to={{item}} className="block">
                   <img
                     src={item.image}
                     alt={item.name}

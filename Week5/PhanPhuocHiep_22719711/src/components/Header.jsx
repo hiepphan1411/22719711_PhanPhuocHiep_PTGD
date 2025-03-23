@@ -9,9 +9,9 @@ const Header = () => {
         <h1 className="text-2xl font-bold text-gray-800">ABC Restaurant</h1>
         
         <nav className="hidden md:flex space-x-6">
-          <a href="/" className="text-gray-600 hover:text-gray-800">Trang chủ</a>
-          <a href="/menu" className="text-gray-600 hover:text-gray-800">Thực đơn</a>
-          <a href="/contact" className="text-gray-600 hover:text-gray-800">Liên hệ</a>
+          <a href="/" className="text-gray-600 hover:text-gray-800 font-bold">Trang chủ</a>
+          <a href="/menu" className="text-gray-600 hover:text-gray-800 font-bold">Thực đơn</a>
+          <a href="/contact" className="text-gray-600 hover:text-gray-800 font-bold">Liên hệ</a>
         </nav>
         
         <button className="hidden md:block bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600">

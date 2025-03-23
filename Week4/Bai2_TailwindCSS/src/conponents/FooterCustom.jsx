@@ -10,7 +10,7 @@ export default function Footer() {
                         <button className="bg-pink-500 text-white px-4 py-2 rounded-lg">Send</button>
                     </form>
                     <div className="flex items-center mt-6 space-x-4">
-                        <img src="/chefifywhite.png" alt="Chefify Logo" className="w-8 h-8" />
+                        <img src="/chefifywhite.png" alt="Chefify Logo" className="w-25 h-8" />
                         <a href="#" className="text-white">2025 Chefify Company</a>
                         <a href="#" className="text-white">Terms of Service | Privacy Policy</a>
                     </div>
@@ -30,7 +30,6 @@ export default function Footer() {
                     </nav>
                 </div>
                 
-                {/* Right Section */}
                 <div className="w-full md:w-1/4 px-4">
                     <h4 className="font-bold text-lg">Recipes</h4>
                     <nav className="mt-2 space-y-1">

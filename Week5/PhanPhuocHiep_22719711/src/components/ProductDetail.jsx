@@ -1,25 +1,14 @@
 import { useEffect, useState } from "react";
 
-const ProductDetail = ({ productId }) => {
+const ProductDetail = ( productData) => {
   const [isLoading, setIsLoading] = useState(true);
-  const [productData, setProductData] = useState(null);
-
+  console.log(productData)
   useEffect(() => {
-    if (productId) {
-      fetch(`https://67cd347add7651e464eda05a.mockapi.io/ProductItems/${productId}`)
-        .then((response) => response.json())
-        .then((data) => {
-          setProductData(data);
-          setIsLoading(false);
-        })
-        .catch((error) => {
-          console.error("Lỗi khi lấy dữ liệu sản phẩm", error);
-          setIsLoading(false);
-        });
+    if (product) {
     } else {
       setIsLoading(false);
     }
-  }, [productId]);
+  }, [product]);
 
   if (isLoading) {
     return <div className="text-center p-4">Đang tải...</div>;
